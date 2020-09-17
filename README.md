@@ -8,6 +8,8 @@ Following the suggested ideas in the default README....
 
 I recently moved the official [Architectural Katas](http://www.architecturalkatas.com) code over here from BitBucket because BB was shutting down Mercurial support (which is what I bet on for a DVCS a decade ago) and didn't offer an easy migration path from hg over to git. I took the opportunity to break it up into a couple of different repos: one for the [katas themselves in raw form](https://github.com/tedneward/ArchKatas), one for the [web client](https://github.com/tedneward/ArchKatasCode), and one for a [Katas CLI](https://github.com/tedneward/ArchKatasCLI). Hopefully this makes it easier for people to suggest some new kata ideas (in the form of a pull request, of course).
 
+I just recently made public my [XML-and-Markdown slide system](https://github.com/tedneward/pptbuilder), which is a v2 of a tool I originally built over a decade ago in F# using Office Automation to drive PowerPoint; the new version uses Apache POI to write the office XML format directly, which is a lot faster and (I expect) a lot more CI/CD'able. The next step is to get it to transform into HTML/Slidy and PDF formats, and then CI/CD my private presentation repo and put the HTML or PDFs someplace up on my website.
+
 Another is [my collection of links and pages for research purposes](https://github.com/tedneward/Research). It's a pretty random collection, and I'm generally always adding stuff to it.
 
 There's a few "working labs" kind of project repos, which I use for conference workshops and the like:
