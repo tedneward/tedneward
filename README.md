@@ -22,12 +22,12 @@ There's a few "working labs" kind of project repos, which I use for conference w
 * [Angular](https://github.com/tedneward/AngularLabs)
 * [React](https://github.com/tedneward/ReactLabs)
 * [Vue](https://github.com/tedneward/VueLabs)
-* [simplevm](https://github.com/tedneward/simplevm)
+* [Virtual Machine Implementation](https://github.com/tedneward/Workshop-VMImpl)
 
-... none of which are guaranteed to make much sense without having taking the workshop, but you're welcome to explore anyway.
+... none of which are guaranteed to make much sense without having taking the workshop, but you're welcome to explore anyway. Note that many (if not all) of them use a branch-based "step" model, so while the easiest way to do the workshop is to start on "main" and just do each step in that branch, if you want or need to fast-forward (or reset) to the start of a particular step, you can check out "step*n*begin" to start step *n*. There's a corresponding "step*n*end" branch to show you my solution. 
 
 ### Demos
-I've recently been putting all the demo code that goes into my presentations into GitHub repositories and referencing the salient parts from the presentations (via HTTP links). Those repositories are all going to be prefixed by "Demo-", and many of them are linked from my slide system (pptbuilder), mentioned above. The "{{ BEGIN ... }}" and "{{ END }}" comments in the code are my markers for extracting snippets into slides.
+I've recently been putting all the demo code that goes into my presentations into GitHub repositories and referencing the salient parts from the presentations (via HTTP references). Those repositories are all going to be prefixed by "Demo-", and many of them have "{{ BEGIN ... }}" and "{{ END }}" comments in the code; those are my markers for extracting snippets into slides.
 
 ### UW Homework Assignments
 If you're one of my UW students, here's a partial list of the homework assignments for the various courses I've taught. If you're not one of my UW students, maybe you want to take a crack at one or more of them, just for funsies. :-)
@@ -45,6 +45,8 @@ If you're one of my UW students, here's a partial list of the homework assignmen
 * http://github.com/tedneward/INFO314-RMIByHand
 * http://github.com/tedneward/INFO314-TLSByHand
 
+Python or Java is the assumed language for these assignments, though there's nothing Python- or Java-specific in here (aside from the Servlets assignment, which is clearly and firmly Java-only).
+
 ***INFO 330 (Databases)***
 
 * http://github.com/tedneward/INFO330-ExploringRelations1
@@ -54,6 +56,8 @@ If you're one of my UW students, here's a partial list of the homework assignmen
 * http://github.com/tedneward/INFO330-ExploringXML
 * http://github.com/tedneward/INFO330-ExploringDocDBs
 * http://github.com/tedneward/INFO330-AccessingDatabases
+
+These use SQLite for the relational assignments, and Mongo for the DocDB assignment. Python or Java is the assumed language for the AccessingDatabases assignment.
 
 ***INFO 448 (Android)***
 
@@ -75,9 +79,6 @@ There's a more than a few other kinds of projects in here, most of which are pro
 
 ### Ask me about ...
 ... whatever comes to mind?
-
-### If you're an interviewer or are interested in hiring me ...
-... 
 
 ### How to reach me ...
 You can always [email](mailto:ted@tedneward.com), [tweet](https://twitter.com/tedneward), [LinkedIn](https://www.linkedin.com/in/tedneward/), and if that doesn't give you enough options I suppose you could always [Google](https://lmgtfy.com/?q=ted+neward) me and see what comes up.
